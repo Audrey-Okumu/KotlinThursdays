@@ -55,7 +55,20 @@ fun ProfileCard(modifier: Modifier = Modifier) {
                 .size(100.dp)
                 .clip(CircleShape)
         )
-        Text("Audrey Okumu")
+        Spacer(modifier = Modifier.height(12.dp))
+        Text(
+            text = "Audrey Okumu",
+            style = MaterialTheme.typography.titleLarge,
+            fontWeight = FontWeight.Bold
+        )
+
+        Spacer(modifier = Modifier.height(4.dp))
+
+        Text(
+            text = "Mobile Development Lead",
+            style = MaterialTheme.typography.bodyMedium,
+            color = Color.Gray
+        )
     }
 }
 
