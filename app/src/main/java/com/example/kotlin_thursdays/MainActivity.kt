@@ -99,7 +99,9 @@ fun ProfileCard(modifier: Modifier = Modifier) {
                 color = Color.Gray
             )
             Spacer(modifier = Modifier.height(16.dp))
+
             Divider(color = Color.White.copy(alpha = 0.3f))
+
             Spacer(modifier = Modifier.height(16.dp))
 
             Button(
